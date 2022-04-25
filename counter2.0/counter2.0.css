@@ -1,0 +1,40 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#value{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.titlu{
+    font-size: 32px;
+}
+
+
+.btn{
+    padding: 10px 15px;
+    color: #fff;
+    border: 2px solid #000;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn.decrease{
+    background: #ff0000;
+}
+
+.btn.reset{
+    background: #000;
+}
+
+.btn.increase{
+    background: #00ff00;
+}
+
